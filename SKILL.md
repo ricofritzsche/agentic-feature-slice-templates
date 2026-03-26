@@ -1,9 +1,6 @@
 ---
 name: feature-slice
-description: 
-Create or modify a self-contained feature slice using domain-driven naming, 
-strict isolation, and explicit IO boundaries. No shared logic, 
-no cross-feature dependencies.
+description: Create or modify a self-contained feature slice using domain-driven naming, strict isolation, and explicit IO boundaries. No shared logic, no cross-feature dependencies.
 ---
 
 ## When to use
