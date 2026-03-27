@@ -1,4 +1,9 @@
-# Rust Project Bootstrap
+---
+name: project-bootstrap
+description: Create or review the first working skeleton of a new Rust service, CLI, or application.
+---
+
+# Project Setup Bootstrap
 
 Use this skill when the task is to create or review the **first working skeleton** of a new Rust service, CLI, or application.
 
