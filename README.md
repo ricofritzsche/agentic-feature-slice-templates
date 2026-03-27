@@ -97,7 +97,7 @@ Generic technical labels are avoided.
 
 ## Current template
 
-The current base template is the project-level `feature-slice` skill.
+The current base template is the project-level [`feature-slice` skill](templates/rust/skills/feature-slice/SKILL.md).
 
 Its job is to teach an agent how features are built in a codebase that rejects:
 
@@ -139,5 +139,4 @@ The project repository and the skill need to point in the same direction.
 ## Guiding principle
 
 A feature should read like a story of what happens, not like a list of architectural categories.
-
 
