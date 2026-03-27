@@ -3,7 +3,7 @@
 
 Project-level skills and templates for coding agents to generate self-contained feature slices with explicit IO boundaries and no cross-feature dependencies.
 
-Read my article here: [https://medium.com/@rico-fritzsche/functional-core-imperative-shell-for-agentic-coding-45f04beb55f5?sk=7b935b3089c0a97012a40833736beae3]
+Read my article [here](https://medium.com/@rico-fritzsche/functional-core-imperative-shell-for-agentic-coding-45f04beb55f5?sk=7b935b3089c0a97012a40833736beae3).
 
 ## Purpose
 
