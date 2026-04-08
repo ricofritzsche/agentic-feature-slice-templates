@@ -1,0 +1,20 @@
+[package]
+name = "banking_feature_slices_example"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum = "0.8.4"
+chrono = { version = "0.4.42", default-features = false, features = ["clock"] }
+factstore = { git = "https://github.com/ricofritzsche/factstore.git", rev = "b6f37acb3d0ad984b354cf143a1fb404ea446bad" }
+factstore-memory = { git = "https://github.com/ricofritzsche/factstore.git", rev = "b6f37acb3d0ad984b354cf143a1fb404ea446bad" }
+factstore-sqlite = { git = "https://github.com/ricofritzsche/factstore.git", rev = "b6f37acb3d0ad984b354cf143a1fb404ea446bad" }
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.145"
+tokio = { version = "1.47.1", features = ["macros", "rt-multi-thread", "net", "sync"] }
+tracing = "0.1.41"
+tracing-subscriber = { version = "0.3.20", features = ["env-filter", "fmt", "json"] }
+ulid = "1.2.1"
+
+[dev-dependencies]
+reqwest = { version = "0.12.24", default-features = false, features = ["http2", "json", "rustls-tls"] }
